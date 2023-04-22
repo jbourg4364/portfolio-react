@@ -1,0 +1,160 @@
+/* Skills */
+    /* Font Family: 
+    Amazon Ember
+        font-family: 'Amazon Ember', sans-serif;
+        font-family: 'Amazon Ember Cd RC', sans-serif;
+        font-family: 'Amazon Ember Display', sans-serif;
+        font-family: 'Amazon Ember Duospace', sans-serif;
+        font-family: 'Amazon Ember Mono', sans-serif;
+        font-family: 'Amazon Ember V2', sans-serif; */
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #skills {
+            display: flex;
+            width: 100vw;
+            height: 900px;
+            background-color: goldenrod;
+            flex-direction: column;
+            align-items: center;
+            clip-path: polygon(0 0, 100% 0, 100% 75%, 0 93%);
+        }
+        .section-heading {
+            font-size: 40px;
+            margin-top: 0px;
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }
+
+        #skills h1, h2 {
+            color: white;
+            text-align: center;
+            margin: 0 auto;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        #skills h2 {
+            padding-top: 25px;
+            padding-bottom: 10px;
+        }
+
+        .skills-container {
+            width: 80vw;
+            display: flex;
+            justify-content: center;
+            height: 100px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .ind-skill, img {
+            height: 70px;
+        }
+
+        .ind-skill, caption {
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+            text-shadow: 1px 1px 1px black;
+            padding: 5px;
+        }
+
+        .ind-skill {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+        }
+
+        
+
+        .backend-heading {
+            margin-top: 40px;
+        }
+
+        h2 {
+            font-size: 25px;
+            letter-spacing: 1px;
+        }
+
+      
+
+        @media screen and (max-width: 600px) {
+            .ind-skill {
+                padding: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0px;
+                align-items: center;
+                align-content: center;
+
+            }
+
+            .ind-skill, caption {
+                font-size: 15px;
+                font-weight: 600;
+                color: white;
+                text-shadow: 1px 1px 1px black;
+                padding-top: 10px;
+                padding: 10px;
+
+            }
+
+            .ind-skill, img {
+                height: 50px;
+                width: auto;
+                padding: 5px;
+                
+            }
+
+            .skills-container {
+                width: 100vw;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                height: 175px;
+                margin-top: 10px;
+                align-items: center;
+              
+            }
+
+            
+
+            .section-heading {
+                font-size: 40px;
+                margin-top: 0px;
+                padding-top: 30px;
+                padding-bottom: 0px;
+            }
+
+            h2 {
+                font-size: 25px;
+                letter-spacing: 1px;
+                padding: 15px;
+                
+            
+            }
+
+            .backend-heading {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                
+            }
+
+            #skills {
+                height: 700px;
+            }
+
+            .backend-container {
+                width: 100vw;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                height: 150px;
+                margin-top: 10px;
+                align-items: center;
+            }
+        }

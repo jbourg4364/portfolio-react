@@ -1,0 +1,89 @@
+/* Welcome Banner */
+
+/* Font Family: 
+    Amazon Ember
+        font-family: 'Amazon Ember', sans-serif;
+        font-family: 'Amazon Ember Cd RC', sans-serif;
+        font-family: 'Amazon Ember Display', sans-serif;
+        font-family: 'Amazon Ember Duospace', sans-serif;
+        font-family: 'Amazon Ember Mono', sans-serif;
+        font-family: 'Amazon Ember V2', sans-serif; 
+*/
+
+#welcome-banner nav {
+    margin-left: 115px;
+}
+
+nav a {
+    font-size: .8rem;
+    font-family: 'Amazon Ember Cd RC', sans-serif;
+    letter-spacing: .01em;
+    border: 2px solid goldenrod;
+    padding: 5px 30px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-emphasis: none;
+    font-weight: 800;
+}
+
+nav a:hover {
+    transition-property: background-color, color, linear;
+    transition-duration: .3s;
+    background-color: goldenrod;
+    color: white;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width: 600px) {
+    #welcome-banner {
+        height: 680px;
+        margin-top: 100px;
+        line-height: 30px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        padding: 5px;
+    }
+
+    h1 {
+        margin-left: 1px;
+        font-size: 35px;
+        margin-right: 1px;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        line-height: 40px;
+    }
+
+    span {
+        font-size: 37px;
+        letter-spacing: normal;
+        text-align: center;
+    }
+
+    nav a {
+        font-size: .6rem;
+        border: 2px solid goldenrod;
+        padding: 7px;
+        box-sizing: border-box;
+        text-decoration: none;
+        text-emphasis: none;
+        margin: 0px auto;
+        display: flex;
+        width: 200px;
+        flex-direction: column;
+        font-weight: 800;
+    }
+
+    #welcome-banner nav {
+        margin-left: 5px;
+        padding: 0 auto;
+        margin-right: 35px;
+    }
+
+    
+}

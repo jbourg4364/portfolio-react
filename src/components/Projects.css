@@ -1,0 +1,27 @@
+/* Skills */
+    /* Font Family: 
+    Amazon Ember
+        font-family: 'Amazon Ember', sans-serif;
+        font-family: 'Amazon Ember Cd RC', sans-serif;
+        font-family: 'Amazon Ember Display', sans-serif;
+        font-family: 'Amazon Ember Duospace', sans-serif;
+        font-family: 'Amazon Ember Mono', sans-serif;
+        font-family: 'Amazon Ember V2', sans-serif; */
+
+    #projects {
+        height: 650px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+     #projects h1 {
+        color: black;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #projects h2 {
+        color: black;
+        text-shadow: none;
+    }
+
