@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Header, Welcome, Skills, Projects, About } from './';
 
 
 const App = () => {
+
     return (
         <div>
             <Header />

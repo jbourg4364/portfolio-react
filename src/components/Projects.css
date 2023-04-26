@@ -9,7 +9,7 @@
         font-family: 'Amazon Ember V2', sans-serif; */
 
     #projects {
-        height: 650px;
+        height: 800px;
         margin-left: 25px;
         margin-top: 25px;
     }
@@ -18,10 +18,74 @@
         color: black;
         text-align: center;
         margin: 0 auto;
+        letter-spacing: 3px;
+        font-size: 50px;
+        padding-top: 30px;
     }
 
     #projects h2 {
         color: black;
         text-shadow: none;
+        text-align: left;
+        font-size: 25px;
+        margin-bottom: 0px;
     }
+
+    .project-image {
+        width: 400px;
+        margin: 0 auto;
+        box-shadow: 5px 5px 7px black;
+        box-sizing: border-box;
+        transform: translate(5%);
+        margin: 5px;
+    }
+
+    .label {
+        border: 2px solid #272341;
+        padding: 4px;
+        margin: 5px;
+        font-size: 15px;
+        font-weight: 700;
+        color: #fff;
+        background-color:goldenrod;
+        width: fit-content;
+        box-shadow: 1px 1px 3px black;
+    }
+
+    .label-container {
+        display: flex;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    p {
+        font-size: 17px;
+        margin: 5px;
+    }
+
+    .label-end {
+        padding: 5px;
+        margin: 5px;
+        font-size: 20px;
+        font-weight: 700;
+        color: goldenrod;
+        background-color:white;
+        width: fit-content;
+    }
+
+    a {
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .label-end:hover {
+        color: white;
+        background-color: goldenrod;
+    }
+
+    .label-end:hover {
+        cursor: pointer;
+    }
+
+    
 
