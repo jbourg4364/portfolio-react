@@ -8,7 +8,10 @@
         font-family: 'Amazon Ember Mono', sans-serif;
         font-family: 'Amazon Ember V2', sans-serif; */
 
-
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
     #projects {
         height: 800px;
         margin-left: 25px;

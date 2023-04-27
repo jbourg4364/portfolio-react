@@ -4,6 +4,7 @@ import Images from '../media';
 
 const About = () => {
     return (
+        <>
         <div id="about">
             <h1 class="about-heading">ABOUT</h1>
             <img className='profile-image'
@@ -13,6 +14,8 @@ const About = () => {
 
             <a id="resume-button" href='https://drive.google.com/file/d/1-RarjItKVd4rEhMaRdoTa2VR6cV6UAY9/view'>Resume</a>
         </div>
+        </>
+        
     );
 };
 

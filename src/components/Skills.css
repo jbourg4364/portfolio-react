@@ -7,7 +7,10 @@
         font-family: 'Amazon Ember Duospace', sans-serif;
         font-family: 'Amazon Ember Mono', sans-serif;
         font-family: 'Amazon Ember V2', sans-serif; */
-
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
 
         #skills {
             display: flex;
@@ -18,8 +21,9 @@
             align-items: center;
             clip-path: polygon(0 0, 100% 0, 100% 75%, 0 93%);
             text-align: center;
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto;
+            overflow: hidden;
+            
         }
 
         .skills-heading {
@@ -44,8 +48,8 @@
         }
 
         .skill img {
-            height: 65px;
-            width: 65px;
+            height: 60px;
+            width: auto;
         }
 
 
@@ -97,4 +101,13 @@
             margin: 0 auto;
             width: 100vw;
             margin-top: 110px;
+        }
+
+        @media screen and (max-width: 600px)  {
+            .skill img {
+                height: 40px;
+                width: auto;
+                padding: 0 auto;
+                margin: 0 auto;
+            }
         }

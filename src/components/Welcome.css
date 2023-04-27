@@ -10,6 +10,11 @@
         font-family: 'Amazon Ember V2', sans-serif; 
 */
 
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
 #welcome-banner nav {
     margin-left: 115px;
 }

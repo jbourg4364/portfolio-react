@@ -1,20 +1,18 @@
 import React, { useState } from 'react';
 import { Header, Welcome, Skills, Projects, About, Contact } from './';
-
+import './App.css';
 
 const App = () => {
 
     return (
         <>
         <div>
-            <view style={{marginLeft: 'auto', marginRight: 'auto'}}>
-                <Header />
-                <Welcome />
-                <Skills />
-                <Projects />
-                <About />
-                <Contact />
-            </view>
+            <Header />
+            <Welcome />
+            <Skills />
+            <Projects />
+            <About />
+            <Contact />
         </div>
         </>
         
