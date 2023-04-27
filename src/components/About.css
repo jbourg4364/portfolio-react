@@ -12,19 +12,73 @@
     height: 800px;
     background-color: goldenrod;
     width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-heading{
     color: white;
-    padding-top: 25px;
+    padding-top: 60px;
     font-size: 50px;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 3px 3px 5px black;
     letter-spacing: 5px;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
-/* img{
-    height: 100px;
-} */
+.profile-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    box-shadow: 3px 3px 7px black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about-summary {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    word-spacing: 3px;
+    line-height: 30px;
+    text-shadow: 1px 1px 1px black;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resume-button {
+    padding: 7px;
+    margin: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    color: goldenrod;
+    background-color:white;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 2px 2px 5px black;
+    border-color: goldenrod;
+    
+}
+
+#resume-button:hover {
+    color: white;
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px)  {
+    .profile-image {
+        width: 30%;
+    }
+
+    .about-summary {
+        width: 90%;
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,65 @@
+/* Contact */
+    /* Font Family: 
+    Amazon Ember
+        font-family: 'Amazon Ember', sans-serif;
+        font-family: 'Amazon Ember Cd RC', sans-serif;
+        font-family: 'Amazon Ember Display', sans-serif;
+        font-family: 'Amazon Ember Duospace', sans-serif;
+        font-family: 'Amazon Ember Mono', sans-serif;
+        font-family: 'Amazon Ember V2', sans-serif; */
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    #contact {
+        height: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-heading{
+        color: black;
+        padding-top: 100px;
+        font-size: 50px;
+        letter-spacing: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .form-input {
+        display: block;
+        margin: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        font-size: 25px;
+        width: 50%;
+    }
+
+    .contact-button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 30px;
+        font-weight: 700;
+        color: goldenrod;
+        background-color:white;
+        width: fit-content;
+        padding: 7px;
+        border-color: goldenrod;
+    }
+
+    .contact-button:hover {
+        color: white;
+        background-color: goldenrod;
+        cursor: pointer;
+    }
+
+    @media screen and (max-width: 600px)  {
+        .form-input {
+            width: 85%;
+        }
+    }
+

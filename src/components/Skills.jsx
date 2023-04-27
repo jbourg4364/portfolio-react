@@ -2,11 +2,11 @@ import React from 'react';
 import './Skills.css';
 import Images from '../media';
 
-{/* <img src={Images.jsLogo} alt='' />
-<caption>JavaScript</caption> */}
+
 
 const Skills = () => {
     return (
+        <>
         <div id='skills'>
             <h2 className='skills-heading'>SKILLS</h2>
             <h2 className='skills-container-heading'>Front End</h2>
@@ -52,6 +52,8 @@ const Skills = () => {
                 </div>
             </div>
         </div>
+        </>
+        
     )
 };
 

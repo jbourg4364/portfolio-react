@@ -8,6 +8,7 @@
         font-family: 'Amazon Ember Mono', sans-serif;
         font-family: 'Amazon Ember V2', sans-serif; */
 
+
     #projects {
         height: 800px;
         margin-left: 25px;
@@ -32,19 +33,19 @@
     }
 
     .project-image {
-        width: 400px;
-        margin: 0 auto;
+        display: block;
+        width: 50%;
         box-shadow: 5px 5px 7px black;
         box-sizing: border-box;
-        transform: translate(5%);
-        margin: 5px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .label {
         border: 2px solid #272341;
         padding: 4px;
         margin: 5px;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 700;
         color: #fff;
         background-color:goldenrod;
@@ -61,6 +62,9 @@
     p {
         font-size: 17px;
         margin: 5px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .label-end {
@@ -85,6 +89,35 @@
 
     .label-end:hover {
         cursor: pointer;
+    }
+
+
+
+    
+    @media screen and (max-width: 600px)  {
+        .project-image {
+            display: block;
+            width: 80%;
+            box-shadow: 3px 3px 5px black;
+            box-sizing: border-box;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #projects h2 {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .label {
+            font-size: 15px;
+        }
+
+        .label-end {
+            font-size: 15px;
+        }
+
     }
 
     

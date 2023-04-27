@@ -8,9 +8,6 @@
         font-family: 'Amazon Ember Mono', sans-serif;
         font-family: 'Amazon Ember V2', sans-serif; */
 
-        html {
-            scroll-behavior: smooth;
-        }
 
         #skills {
             display: flex;
@@ -21,6 +18,8 @@
             align-items: center;
             clip-path: polygon(0 0, 100% 0, 100% 75%, 0 93%);
             text-align: center;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .skills-heading {
