@@ -122,4 +122,13 @@
                 font-size: 30px;
             }
 
+            #skills {
+                height: 775px;
+                
+            }
+
+            .backendskills-container-heading {
+                margin-top: 75px;
+            }
+
         }
