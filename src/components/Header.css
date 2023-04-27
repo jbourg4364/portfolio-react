@@ -26,6 +26,7 @@
             display: flex;
             justify-content: right;
             align-items: flex-end;
+            margin-left: 60%;
         }
         
         #social-links a i {
@@ -62,6 +63,7 @@
                 display: flex;
                 justify-content: space-evenly;
                 align-items: center;
+                margin-left: 0;
             }
         
             #social-links i {
@@ -75,5 +77,9 @@
                 background-color: white;
                 overflow-x: hidden;
             }
+
+           
+
+            
         }
 
