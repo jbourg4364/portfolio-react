@@ -15,7 +15,7 @@ const Projects = () => {
                         <div className='label'>HTML5</div>
                         <div className='label'>CSS</div>    
                     </div>
-                    <p>An interactive, real-time job search tool to find jobs for JavaScript developers by location. Custom search in any US state to apply to hundreds of jobs plotted to the map in multiple view modes.</p>
+                    <p>Take a trip to the moon with this interactive version of the classic game of Tic-Tac-Toe. The game randomly chooses the first player and determines a winner accordingly. With a reset of the state board, the players never have to refresh the page.</p>
                     <div className='label-container'>
                         <button className='label-end'><a className='label-end' href='https://exquisite-pony-390f59.netlify.app/'>See Live</a></button>
                         <button className='label-end'><a className='label-end' href='https://exquisite-pony-390f59.netlify.app/'>Source Code</a></button>
