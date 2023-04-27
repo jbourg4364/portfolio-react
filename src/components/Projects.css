@@ -32,7 +32,10 @@
         text-shadow: none;
         text-align: left;
         font-size: 25px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 0px;
+       
     }
 
     .project-image {
@@ -98,6 +101,12 @@
 
     
     @media screen and (max-width: 600px)  {
+
+        #projects {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
         .project-image {
             display: block;
             width: 80%;
@@ -115,11 +124,24 @@
 
         .label {
             font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: auto;
+            margin-left: auto;
+            box-shadow: none;
         }
 
         .label-end {
-            font-size: 15px;
+            font-size: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: auto;
+            
         }
+
+        
 
     }
 
