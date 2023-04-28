@@ -9,6 +9,7 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
         emailjs.sendForm('service_vakzyf6', 'template_gqb0hwx', "form", 'z-bjWzEqmRLp6hIp8')
         .then((result) => {
           console.log(result.text);
@@ -17,17 +18,14 @@ const Contact = () => {
         });
 
         
-        console.log("Form submitted", {name, email, message});
+        // console.log("Form submitted", {name, email, message});
         alert("Your message has been sent to Jason Bourg!");
 
         setName('');
         setEmail('');
         setMessage('');
     };
-
-
-
-
+    
     return (
         <>
         <div id='contact'>

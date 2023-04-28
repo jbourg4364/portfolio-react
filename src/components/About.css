@@ -64,7 +64,7 @@
     display: block;
     box-shadow: 2px 2px 5px black;
     border-color: goldenrod;
-    
+    text-decoration: none;
 }
 
 #resume-button:hover {

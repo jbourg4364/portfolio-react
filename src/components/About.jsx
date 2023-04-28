@@ -12,7 +12,7 @@ const About = () => {
 
             <p className='about-summary'>Software developer with extensive experience in leading all facets of program management, from inception through successful completion, to attain organizational goals and milestones. Well-versed in directing top-performing teams to accomplish project objectives within defined time and budget.</p>
 
-            <a id="resume-button" href='https://drive.google.com/file/d/1-RarjItKVd4rEhMaRdoTa2VR6cV6UAY9/view'>Resume</a>
+            <a id="resume-button" href='https://drive.google.com/file/d/1vx4xbUOuI1RTg30R4A2766BVdooatT-l/view?usp=share_link'>Resume</a>
         </div>
         </>
         
