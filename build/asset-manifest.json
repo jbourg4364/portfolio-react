@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ebfa337c.css",
-    "main.js": "/static/js/main.589e415f.js",
+    "main.css": "/static/css/main.4d258e5d.css",
+    "main.js": "/static/js/main.345fcbb9.js",
     "static/media/galaxy.png": "/static/media/galaxy.bb8fe489e93d92128392.png",
     "static/media/react-logo.png": "/static/media/react-logo.2afe8019efe53a8eff12.png",
     "static/media/PostgreSQL-logo.png": "/static/media/PostgreSQL-logo.1b904635aedb7c19150d.png",
@@ -12,11 +12,11 @@
     "static/media/css-logo.png": "/static/media/css-logo.8ea58d31a9d39dd59031.png",
     "static/media/express-logo.png": "/static/media/express-logo.e3d4f9e5c8b469e45838.png",
     "index.html": "/index.html",
-    "main.ebfa337c.css.map": "/static/css/main.ebfa337c.css.map",
-    "main.589e415f.js.map": "/static/js/main.589e415f.js.map"
+    "main.4d258e5d.css.map": "/static/css/main.4d258e5d.css.map",
+    "main.345fcbb9.js.map": "/static/js/main.345fcbb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebfa337c.css",
-    "static/js/main.589e415f.js"
+    "static/css/main.4d258e5d.css",
+    "static/js/main.345fcbb9.js"
   ]
 }
