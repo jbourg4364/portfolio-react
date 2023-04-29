@@ -1,5 +1,6 @@
 import React from 'react';
 import './Welcome.css';
+import { Transition } from 'react-transition-group';
 
 const Welcome = () => {
     return (
