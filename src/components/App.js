@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Header, Welcome, Skills, Projects, About, Contact } from './';
+import { Header, Welcome, Skills, Projects, About, Contact, Footer } from './';
 import './App.css';
 import Reveal from 'react-reveal/Reveal';
 
@@ -10,7 +10,7 @@ const App = () => {
     
     return (
         <>
-            <div>
+            <div id='top'>
                 <Header /> 
                 <Reveal>
                     
@@ -19,6 +19,7 @@ const App = () => {
                     <Projects />
                     <About />
                     <Contact />
+                    <Footer />
 
                 </Reveal>
             </div>

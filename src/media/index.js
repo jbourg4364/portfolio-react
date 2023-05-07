@@ -8,7 +8,7 @@ const Images = {
     nodeLogo: require('./nodejs-logo.png'),
     profile: require('./IMG_0274.jpeg'),
     PostgreSQL: require('./PostgreSQL-logo.png'),
-
+    strangersThings: require('./StrangersThings.png'),
     galaxy: require('./galaxy.png')
 };
 

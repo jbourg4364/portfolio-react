@@ -13,7 +13,7 @@
             -webkit-text-size-adjust: 100%;
         }
     #projects {
-        height: 800px;
+        height: 1250px;
         margin-left: 25px;
         margin-top: 25px;
     }
@@ -66,7 +66,7 @@
     }
 
     p {
-        font-size: 17px;
+        font-size: 20px;
         margin: 5px;
         width: 90%;
         margin-left: auto;
@@ -93,6 +93,10 @@
 
     .label-end:hover {
         cursor: pointer;
+    }
+
+    .project-container {
+        margin-bottom: 45px;
     }
 
 

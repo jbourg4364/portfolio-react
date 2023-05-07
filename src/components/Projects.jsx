@@ -8,6 +8,24 @@ const Projects = () => {
         <div id='projects'>
             <h1>PROJECTS</h1>
             <div className='project-container'>
+                <h2>Stranger's Things</h2>
+                <div className='image-container'>
+                    <div className='label-container'>
+                        <div className='label'>React</div>
+                        <div className='label'>JavaScript</div>
+                        <div className='label'>HTML5</div>
+                        <div className='label'>CSS</div>    
+                    </div>
+                    <p>Stranger's Things is a platform where users can post and browse classified ads for various items and services. With its user-friendly interface and search features, finding what you need on Stranger's Things is easy and efficient.</p>
+                    <div className='label-container'>
+                        <a className='label-end' href='https://gorgeous-brioche-1bc110.netlify.app/'>See Live</a>
+                        <a className='label-end' href='https://github.com/jbourg4364/strangers-things'>Source Code</a>
+                    </div>
+                    <img className='project-image' src={Images.strangersThings} alt='' />
+                </div>
+            </div>
+            
+            <div className='project-container'>
                 <h2>Galaxy Tic-Tac-Toe</h2>
                 <div className='image-container'>
                     <div className='label-container'>
