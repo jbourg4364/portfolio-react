@@ -24,7 +24,7 @@ const Projects = () => {
                     <img className='project-image' src={Images.strangersThings} alt='' />
                 </div>
             </div>
-            
+           
             <div className='project-container'>
                 <h2>Galaxy Tic-Tac-Toe</h2>
                 <div className='image-container'>

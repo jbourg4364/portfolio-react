@@ -9,10 +9,10 @@
         font-family: 'Amazon Ember V2', sans-serif; */
 
 .footer-container {
-    height: 125px;
+    height: 100px;
     background-color: black;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 auto;
     box-sizing: border-box;
     color: white;
     font-family: 'Amazon Ember', sans-serif;
@@ -24,7 +24,6 @@
 #footer-arrow {
     color: white;
     padding: 30px;
-
 }
 
 #footer-arrow:hover {
