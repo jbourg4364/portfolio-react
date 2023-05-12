@@ -19,6 +19,7 @@
     width: 100vw;
     text-align: center;
     display: block;
+    bottom: 0;
 }
 
 #footer-arrow {
