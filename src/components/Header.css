@@ -58,7 +58,7 @@
             letter-spacing: 3px;
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 750px) {
             #social-links {
                 height: 60px;
                 display: flex;

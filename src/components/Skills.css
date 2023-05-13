@@ -48,7 +48,7 @@
         }
 
         .skill img {
-            height: 60px;
+            height: 70px;
             width: auto;
         }
 
@@ -65,7 +65,7 @@
         .skill {
             display: flex;
             text-align: center;
-            padding: 15px;
+            padding: 17px;
             flex-direction: column;
             height: 25px;
             justify-items:flex-start;
@@ -102,7 +102,7 @@
             margin-top: 110px;
         }
 
-        @media screen and (max-width: 600px)  {
+        @media screen and (max-width: 750px)  {
             .skill img {
                 height: 40px;
                 width: auto;
