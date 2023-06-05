@@ -42,6 +42,10 @@ const Skills = () => {
                     <img src={Images.PostgreSQL} alt='' />
                     <caption>PostgreSQL</caption>
                 </div>
+                <div className='skill'>
+                    <img src={Images.API} alt='' />
+                    <caption>RESTful API</caption>
+                </div>
             </div>
 
             <h2 className='backendskills-container-heading'>Tools</h2>

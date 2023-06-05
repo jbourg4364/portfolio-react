@@ -10,7 +10,9 @@ const Images = {
     PostgreSQL: require('./PostgreSQL-logo.png'),
     strangersThings: require('./StrangersThings.png'),
     galaxy: require('./galaxy.png'),
-    slimGEMS: require('./SlimGEMS.png')
+    slimGEMS: require('./SlimGEMS.png'),
+    JAAM: require('./JAAM.png'),
+    API: require('./API.png')
 };
 
 export default Images;

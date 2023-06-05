@@ -8,12 +8,13 @@
         font-family: 'Amazon Ember Mono', sans-serif;
         font-family: 'Amazon Ember V2', sans-serif; */
 
-        html {
-            scroll-behavior: smooth;
-            -webkit-text-size-adjust: 100%;
-        }
+    html {
+        scroll-behavior: smooth;
+        -webkit-text-size-adjust: 100%;
+    }
+
     #projects {
-        height: 1335px;
+        height: 1550px;
         margin-left: 25px;
         margin-top: 25px;
     }
@@ -33,7 +34,8 @@
         text-align: left;
         font-size: 25px;
         margin-bottom: 0px;
-        padding: 0;  
+        padding: 0;
+        margin: 0;
     }
 
     .project-image {
@@ -56,6 +58,8 @@
         background-color:goldenrod;
         width: fit-content;
         box-shadow: 1px 1px 3px black;
+        margin-top: 0px;
+        padding-top: 0px;
     }
 
     .label-container {
@@ -99,13 +103,16 @@
         margin-bottom: 45px;
     }
 
+    .collaborators {
+        font-style: italic;
+    }
 
 
-    
     @media screen and (max-width: 750px)  {
         #projects {
             margin-left: auto;
             margin-right: auto;
+            height: 1600px;
         }
 
         .project-image {
@@ -157,7 +164,9 @@
 
         p {
             text-align: center;
+            font-size: 17px;
         }
+        
 
     }
 

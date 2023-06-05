@@ -65,7 +65,7 @@
         .skill {
             display: flex;
             text-align: center;
-            padding: 17px;
+            padding: 25px;
             flex-direction: column;
             height: 25px;
             justify-items:flex-start;
@@ -111,11 +111,10 @@
             }
 
             .skill caption {
-                font-size: 17px;
+                font-size: 15px;
                 color: white;
                 text-shadow: none;
                 font-weight: 400;
-                letter-spacing: 1px;
             }
 
             .skills-container-heading {
@@ -123,12 +122,18 @@
             }
 
             #skills {
-                height: 775px;
-                
+                height: 800px;
+                letter-spacing: 1px;
             }
 
             .backendskills-container-heading {
                 margin-top: 75px;
+                padding: 0px;
+
+            }
+
+            .skill {
+                padding: 15px;
             }
 
         }

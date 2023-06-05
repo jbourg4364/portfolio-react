@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d368293.css",
-    "main.js": "/static/js/main.c2584014.js",
+    "main.css": "/static/css/main.21f6f4ee.css",
+    "main.js": "/static/js/main.b21aeef6.js",
     "static/media/galaxy.png": "/static/media/galaxy.bb8fe489e93d92128392.png",
     "static/media/SlimGEMS.png": "/static/media/SlimGEMS.a35234bcbeb0bc1c8f2d.png",
+    "static/media/JAAM.png": "/static/media/JAAM.55aeea4c638a859f1b11.png",
     "static/media/StrangersThings.png": "/static/media/StrangersThings.5bd91b24c3ebf4cf2723.png",
     "static/media/react-logo.png": "/static/media/react-logo.2afe8019efe53a8eff12.png",
     "static/media/PostgreSQL-logo.png": "/static/media/PostgreSQL-logo.1b904635aedb7c19150d.png",
     "static/media/IMG_0274.jpeg": "/static/media/IMG_0274.99bb7b56077f7b197b07.jpeg",
     "static/media/nodejs-logo.png": "/static/media/nodejs-logo.80c15dd0bfe93afd8167.png",
+    "static/media/API.png": "/static/media/API.db89f876055e2ee62a5e.png",
     "static/media/javascript-logo.png": "/static/media/javascript-logo.8b30303babfb926d286e.png",
     "static/media/html-logo.png": "/static/media/html-logo.9b674892ef5960bafca3.png",
     "static/media/css-logo.png": "/static/media/css-logo.8ea58d31a9d39dd59031.png",
     "static/media/express-logo.png": "/static/media/express-logo.e3d4f9e5c8b469e45838.png",
     "index.html": "/index.html",
-    "main.9d368293.css.map": "/static/css/main.9d368293.css.map",
-    "main.c2584014.js.map": "/static/js/main.c2584014.js.map"
+    "main.21f6f4ee.css.map": "/static/css/main.21f6f4ee.css.map",
+    "main.b21aeef6.js.map": "/static/js/main.b21aeef6.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d368293.css",
-    "static/js/main.c2584014.js"
+    "static/css/main.21f6f4ee.css",
+    "static/js/main.b21aeef6.js"
   ]
 }
