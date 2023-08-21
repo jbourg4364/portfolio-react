@@ -8,7 +8,7 @@ const Projects = () => {
         <div id='projects'>
             <h1>PROJECTS</h1>
             <div className='project-container'>
-                <h2>JAAM Music</h2>
+                <h2 className='project-heading'>JAAM Music</h2>
                 <div className='image-container'>
                     <div className='label-container'>
                         <div className='label'>React</div>
@@ -26,11 +26,28 @@ const Projects = () => {
                 </div>
             </div>
             <div className='project-container'>
-                <h2>Slim GEMS</h2>
+                <h2 className='project-heading'>Jabber</h2>
                 <div className='image-container'>
                     <div className='label-container'>
                         <div className='label'>React</div>
                         <div className='label'>PostgreSQL</div>
+                        <div className='label'>Node/Express</div>
+                        <div className='label'>JavaScript</div>
+                    </div>
+                    <p>Jabber is a social media website that closely resembles Facebook in terms of features and layout. Users can register and customize their profiles, create and edit posts, and engage with other users through likes and comments. The platform aims to offer a familiar and user-friendly experience to those who appreciate Facebook's functionalities but seek an alternative platform. Registered users will be automatically redirected to their news feed home page, thanks to their persistent user token.</p>
+                    <div className='label-container'>
+                        <a className='label-end' href='https://jabber.fly.dev/'>See Live</a>
+                        <a className='label-end' href='https://github.com/jbourg4364/jabber'>Source Code</a>
+                    </div>
+                    <img className='project-image' src={Images.jabber} alt='' />
+                </div>
+            </div>
+            <div className='project-container'>
+                <h2 className='project-heading'>Slim GEMS</h2>
+                <div className='image-container'>
+                    <div className='label-container'>
+                        <div className='label'>PostgreSQL</div>
+                        <div className='label'>React</div>
                         <div className='label'>Node/Express</div>
                         <div className='label'>JavaScript</div>
                     </div>

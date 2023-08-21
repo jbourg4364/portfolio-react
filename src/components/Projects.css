@@ -14,7 +14,7 @@
     }
 
     #projects {
-        height: 1550px;
+        height: 2200px;
         margin-left: 25px;
         margin-top: 25px;
     }
@@ -100,11 +100,16 @@
     }
 
     .project-container {
-        margin-bottom: 45px;
+        margin-bottom: 55px;
     }
 
     .collaborators {
         font-style: italic;
+    }
+
+    h2.project-heading {
+        margin-bottom: 100px;
+        margin: 0;
     }
 
 
@@ -112,7 +117,7 @@
         #projects {
             margin-left: auto;
             margin-right: auto;
-            height: 1600px;
+            height: 2200px;
         }
 
         .project-image {
@@ -166,6 +171,14 @@
             text-align: center;
             font-size: 17px;
         }
+
+        .project-heading {
+            margin-bottom: 0;
+            margin: 0;
+        }
+    
+    
+    
         
 
     }

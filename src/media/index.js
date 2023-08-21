@@ -12,7 +12,9 @@ const Images = {
     galaxy: require('./galaxy.png'),
     slimGEMS: require('./SlimGEMS.png'),
     JAAM: require('./JAAM.png'),
-    API: require('./API.png')
+    API: require('./API.png'),
+    jabber: require('./jabber.png'),
+    cSharp: require('./C logo.png')
 };
 
 export default Images;

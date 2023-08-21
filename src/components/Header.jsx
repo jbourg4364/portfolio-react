@@ -10,7 +10,7 @@ const Header = () => {
             <a href="https://github.com/jbourg4364" rel="noopener noreferrer" target="_blank" aria-label="github">
                 <i className="fa-brands fa-github fa-lg"></i>
             </a>
-            <a href="https://drive.google.com/file/d/1praMrbFMVMuKSp-116gfU0Z0MRG9-Qik/view?usp=drive_link" rel="noopener noreferrer" target="_blank" aria-label="resume">
+            <a href="https://drive.google.com/file/d/10oH9jX1nL044dqUR36ra9WD4vMIMcHce/view?usp=drive_link" target="_blank" aria-label="resume">
                 <i className="fa-solid fa-file fa-lg"></i>
             </a>
         </div>
