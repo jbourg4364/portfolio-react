@@ -14,7 +14,8 @@ const Images = {
     JAAM: require('./JAAM.png'),
     API: require('./API.png'),
     jabber: require('./jabber.png'),
-    cSharp: require('./C logo.png')
+    cSharp: require('./C logo.png'),
+    carQ: require('./carq.png')
 };
 
 export default Images;

@@ -43,7 +43,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className='project-container'>
-                <h2 className='project-heading'>Slim GEMS</h2>
+                <h2 className='project-heading'>CarQ</h2>
                 <div className='image-container'>
                     <div className='label-container'>
                         <div className='label'>PostgreSQL</div>
@@ -51,13 +51,12 @@ const Projects = () => {
                         <div className='label'>Node/Express</div>
                         <div className='label'>JavaScript</div>
                     </div>
-                    <p className='collaborators'>Collaborators: Dustin Le</p>
-                    <p>A web application that allows users to register, log in, and create fitness routines and activities. As a user, you can create new routines, update and delete existing ones, and add activities with dropdown menus and inputs. The activities tab shows a list of all created activities and allows registered users to edit them. The stretch goals include features such as clicking on a username to see their public routines or on an activity name to see all public routines that feature it.</p>
+                    <p>CarQ makes carline pickup easier and more efficient than ever. Parents check in once they are in line to pick up their precious cargo, simultaneously administration has a special portal where the corresponding students appear in order in which their parents have checked in. Once picked up the students are checked off and added to a daily list that can be accessed forever with corresponding times of pickup.</p>
                     <div className='label-container'>
-                        <a className='label-end' href='https://slimgems.fly.dev/'>See Live</a>
-                        <a className='label-end' href='https://github.com/Jason-Dustin-fit/fit-trackr'>Source Code</a>
+                        <a className='label-end' href='https://carq.fly.dev/'>See Live</a>
+                        <a className='label-end' href='https://github.com/jbourg4364/journey'>Source Code</a>
                     </div>
-                    <img className='project-image' src={Images.slimGEMS} alt='' />
+                    <img className='project-image' src={Images.carQ} alt='' />
                 </div>
             </div>
         </div>
