@@ -12,7 +12,7 @@ const About = () => {
 
             <p className='about-summary'>Full Stack Software Developer with a demonstrated history of successfully conceiving and executing web applications, aligning them with organizational objectives through industry best practices. Proficient in guiding high-performing teams to achieve project milestones within established timelines and budgets.</p>
 
-            <a id="resume-button" href='https://drive.google.com/file/d/1dk1SnPNwRmsTvYp5eioziB7R4gk--lIJ/view?usp=sharing'>Resume</a>
+            <a id="resume-button" href='https://drive.google.com/file/d/1v3vdC2Y1ub_MwJF89R2i50nXR4_6990v/view?usp=sharing'>Resume</a>
         </div>
         </>
         

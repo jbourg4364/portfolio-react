@@ -27,10 +27,10 @@ const Skills = () => {
                     <img src={Images.cssLogo} alt='' />
                     <caption>CSS</caption>
                 </div>
-                <div className='skill'>
+                {/* <div className='skill'>
                     <img src={Images.cSharp} alt='' />
                     <caption>C#</caption>
-                </div>
+                </div> */}
             </div>
             <h2 className='backendskills-container-heading'>Back End</h2>
             <div className='backend-skills-container'>

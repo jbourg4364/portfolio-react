@@ -15,7 +15,9 @@ const Images = {
     API: require('./API.png'),
     jabber: require('./jabber.png'),
     cSharp: require('./C logo.png'),
-    carQ: require('./carq.png')
+    carQ: require('./carq.png'),
+    gitHub: require('./Github.png'),
+    claitors: require('./claitors.png')
 };
 
 export default Images;

@@ -31,10 +31,10 @@
     #projects h2 {
         color: black;
         text-shadow: none;
-        text-align: left;
+        text-align: center;
         font-size: 25px;
         margin-bottom: 0px;
-        padding: 0;
+        padding-bottom: 10px;
         margin: 0;
     }
 
@@ -66,6 +66,7 @@
         display: flex;
         margin-bottom: 0;
         padding-bottom: 0;
+        justify-content: center;
     }
 
     p {
@@ -74,7 +75,7 @@
         width: 90%;
         margin-left: auto;
         margin-right: auto;
-        text-align: left;
+        text-align: center;
     }
 
     .label-end {
@@ -88,6 +89,7 @@
         list-style: none;
         text-decoration: none;
         border: 2px solid black;
+        margin-bottom: 50px;
     }
 
     .label-end:hover {
@@ -107,9 +109,9 @@
         font-style: italic;
     }
 
-    h2.project-heading {
+    .project-heading {
         margin-bottom: 100px;
-        margin: 0;
+        margin: 50px;
     }
 
 
@@ -117,7 +119,7 @@
         #projects {
             margin-left: auto;
             margin-right: auto;
-            height: 2200px;
+            height: 2300px;
         }
 
         .project-image {
@@ -128,6 +130,7 @@
             margin-right: auto;
             box-shadow: 2px 2px 5px black;
             margin-top: 5px;
+            margin-bottom: 75px;
             
         }
 
@@ -135,7 +138,8 @@
             text-align: center;
             margin-left: auto;
             margin-right: auto;
-            margin: 25px;
+            margin: 5px;
+            padding-bottom: 0px;
         }
 
         .label {
@@ -156,7 +160,7 @@
             margin-left: auto;
             margin-right: auto;
             width: auto;
-            padding: auto;
+            margin-bottom: 10px;
         }
 
         .label-container {
@@ -164,6 +168,9 @@
             margin-right: auto;
             display: flex;
             justify-content: center;
+            padding: 10px;
+            height: auto;
+            flex-wrap: wrap;
          
         }
 
@@ -172,10 +179,7 @@
             font-size: 17px;
         }
 
-        .project-heading {
-            margin-bottom: 0;
-            margin: 0;
-        }
+   
     
     
     
